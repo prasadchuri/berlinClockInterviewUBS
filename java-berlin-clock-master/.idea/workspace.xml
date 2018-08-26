@@ -33,7 +33,7 @@
           <entry key="gradle" value="1" />
           <entry key="gradlew" value="3" />
           <entry key="html" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="story" value="3" />
@@ -44,7 +44,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
@@ -52,13 +52,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2823" />
+          <entry key="java" value="2935" />
           <entry key="story" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2823" />
+          <entry key="JAVA" value="2935" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -79,20 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeConverterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -170,7 +161,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/TimeParserFixture.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
@@ -184,6 +175,15 @@
                 <element signature="e#382#383#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/ClockStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -453,7 +453,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/BerlinClockFixture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/SecondTimerStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeConverterImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/ClockPrinterInterface.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/support/HrTimeStrategyFixture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/ClockPrinter.java" />
@@ -466,6 +465,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/SecondTimerStrategy.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/SecondTimerStrategyFixture.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/TimeParserFixture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeConverterImpl.java" />
       </list>
     </option>
   </component>
@@ -560,7 +560,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="repository&#9;PSI&#9;JAVA://org.apache.log4j.Category#repository" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535263855482" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535264097221" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38390803" />
@@ -726,7 +726,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990366" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990366" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" sideWeight="0.5019231" side_tool="true" weight="0.2496318" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.4992636" />
       <window_info anchor="bottom" id="Terminal" />
@@ -735,7 +735,7 @@
       <window_info anchor="bottom" id="Messages" sideWeight="0.49779087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7628866" visible="true" weight="0.25714287" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7628866" visible="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83873343" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -964,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeConverterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ubs/opsit/interviews/HrTimeStrategyFixture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1011,13 +1004,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/ClockStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1063,6 +1049,20 @@
             <element signature="e#382#383#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/ClockStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ubs/opsit/interviews/TimeConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
         </state>
       </provider>
     </entry>

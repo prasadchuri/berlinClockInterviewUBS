@@ -6,6 +6,7 @@ public class TimeConverterImpl implements TimeConverter {
     public String convertTime(String aTime) {
         TimeParser parser =  new TimeParser(aTime);
 
+        //NOTE: Implemented Strategy pattern to fetch the clock value based on the Sec, Min and Hr clock
         SecondTimerStrategy secTimerStrategy = new SecondTimerStrategy();
         HrTimerStrategy hrTimerStrategy = new HrTimerStrategy();
         MinTimerStrategy minTimerStrategy = new MinTimerStrategy();

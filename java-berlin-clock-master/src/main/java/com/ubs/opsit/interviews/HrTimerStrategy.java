@@ -10,11 +10,11 @@ public class HrTimerStrategy implements ClockStrategy {
 
     private  String get5HrValue(Integer hrs){
         int numberOf5hrs =  hrs / 5;
-        return  ClockPrinter.PrintValues(numberOf5hrs, "R");
+        return  new ClockPrinter().PrintValues(numberOf5hrs, "R");
     }
 
     private  String get1HrValue (Integer hrs) {
         int numberOf1Hr = hrs % 5;
-        return ClockPrinter.PrintValues(numberOf1Hr, "R");
+        return new ClockPrinter().PrintValues(numberOf1Hr, "R");
     }
 }

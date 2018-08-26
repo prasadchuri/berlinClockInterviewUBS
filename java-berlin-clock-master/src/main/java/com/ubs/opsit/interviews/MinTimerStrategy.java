@@ -9,12 +9,12 @@ public class MinTimerStrategy implements  ClockStrategy {
 
     private  String get5MinValue(Integer mins){
         int munberOf5Mins =  mins / 5;
-        return  ClockPrinter.PrintValues(munberOf5Mins, 11);
+        return  new ClockPrinter().PrintValues(munberOf5Mins);
     }
 
     private  String get1MinValue (Integer mins){
         int numberOf1Min = mins % 5;
-        return ClockPrinter.PrintValues(numberOf1Min, "Y");
+        return new ClockPrinter().PrintValues(numberOf1Min, "Y");
     }
 
 }
